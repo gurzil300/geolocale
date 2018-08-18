@@ -30,7 +30,6 @@ Run this on the command line from the root of your project:
 ```
 After you install package go to the and learn more about templates.
 * [Laravel localization](https://laravel.com/docs/5.6/localization) - Laravel's localization features
-```
 First we need to make controller so user can change language if he doesnt want language which is set automatically.
 Go to the routes file routes/web.php and add this route.
 ```  
