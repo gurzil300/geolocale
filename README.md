@@ -92,6 +92,7 @@ In AppServiceProvider app/Providers/AppServiceProvider.php change boot function(
         $country = $geo['country'];
 
         //Prepared language based on country name
+        //Add as many as you want
         $languages = [
             'United States' => 'en',
             'Canada' => 'en',
