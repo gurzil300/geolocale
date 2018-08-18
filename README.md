@@ -28,7 +28,6 @@ Run this on the command line from the root of your project:
 ```
   php artisan vendor:publish --provider="Torann\GeoIP\GeoIPServiceProvider" --tag=config
 ```
-```
 After you install package go to the and learn more about templates.
 * [Laravel localization](https://laravel.com/docs/5.6/localization) - Laravel's localization features
 ```
