@@ -16,8 +16,8 @@ class LanguageController extends Controller
         if(in_array($lang, $languages)) {
             //Set cookie for furder check
             //We use this to make sure language doesnt change on every App boot
-            //Cookie will expire in one week
-            Cookie::queue(Cookie::make('lang', $lang , '10080'));
+            //Cookie will expire in two weeks
+            Cookie::queue(Cookie::make('lang', $lang , '20160'));
             //Redirect back
             return back();
 
